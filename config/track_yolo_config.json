@@ -1,0 +1,33 @@
+{
+  "mode": "TRACK",
+  "detector_config": {
+    "type": "yolo",
+    "model_path": "models/yolov8n.pt",
+    "hyperparameters": {
+      "confidence_threshold": 0.3,
+      "crop_width_ratio": 0.6
+    }
+  },
+  "io_config": {
+    "input_video_path": "data/TEST"
+  },
+  "tracking_config": {
+    "process_noise_cov": [
+      1e-2,
+      1e-2,
+      5e-3,
+      5e-3
+    ],
+    "measurement_noise_cov": [
+      1e-1,
+      1e-1
+    ],
+    "edge_margin": 20
+  },
+  "visualization_config": {
+    "base_width": 50,
+    "min_width": 5,
+    "alpha": 0.3
+  },
+  "save_sample_frames": true
+}

@@ -1,0 +1,41 @@
+{
+  "mode": "TRAIN",
+  "detector_config": {
+    "type": "yolo",
+    "model_path": "models/yolov8n.pt",
+    "hyperparameters": {
+      "confidence_threshold": 0.25,
+      "target_class_id": 0
+    }
+  },
+  "io_config": {
+    "input_video_path": "data/TEST/1.mp4"
+  },
+  "tracking_config": {
+    "max_age": 30,
+    "process_noise_cov": [
+      1e-2,
+      1e-2,
+      5e-3,
+      5e-3
+    ],
+    "measurement_noise_cov": [
+      1e-1,
+      1e-1
+    ],
+    "edge_margin": 20
+  },
+  "visualization_config": {
+    "base_width": 50,
+    "min_width": 5,
+    "alpha": 0.3
+  },
+  "evaluation_config": {
+    "distance_threshold": 10
+  },
+  "train_config": {
+    "epochs": 50,
+    "data_path": "data/TRAIN/data.yaml"
+  },
+  "save_sample_frames": false
+}
