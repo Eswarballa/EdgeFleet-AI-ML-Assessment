@@ -1,0 +1,7 @@
+{
+    "total_ground_truth_visible_balls": 210,
+    "detected_balls_matched": 0,
+    "recall": "0.0000",
+    "precision": "0.0000",
+    "mean_centroid_drift_pixels": "N/A"
+}

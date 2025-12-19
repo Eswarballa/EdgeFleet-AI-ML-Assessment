@@ -1,0 +1,777 @@
+2025-12-19 11:59:37,414 - CricketBallTracker - INFO - Pipeline run starting for 12 with ID: 20251219_115937
+2025-12-19 11:59:37,414 - CricketBallTracker - INFO - Mode: EVALUATE
+2025-12-19 11:59:37,414 - CricketBallTracker - INFO - Initializing detector of type: classical
+2025-12-19 11:59:37,415 - CricketBallTracker - INFO - Configuration saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/12_20251219_115937
+2025-12-19 11:59:37,437 - CricketBallTracker - INFO - Output video will be saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/12_20251219_115937/12_output.mp4
+2025-12-19 11:59:37,472 - CricketBallTracker - DEBUG - Processing frame 1/139
+2025-12-19 11:59:37,512 - CricketBallTracker - DEBUG - Processing frame 2/139
+2025-12-19 11:59:37,570 - CricketBallTracker - DEBUG - Processing frame 3/139
+2025-12-19 11:59:37,615 - CricketBallTracker - DEBUG - Processing frame 4/139
+2025-12-19 11:59:37,659 - CricketBallTracker - DEBUG - Processing frame 5/139
+2025-12-19 11:59:37,704 - CricketBallTracker - DEBUG - Processing frame 6/139
+2025-12-19 11:59:37,748 - CricketBallTracker - DEBUG - Processing frame 7/139
+2025-12-19 11:59:37,791 - CricketBallTracker - DEBUG - Processing frame 8/139
+2025-12-19 11:59:37,833 - CricketBallTracker - DEBUG - Processing frame 9/139
+2025-12-19 11:59:37,877 - CricketBallTracker - DEBUG - Processing frame 10/139
+2025-12-19 11:59:37,923 - CricketBallTracker - DEBUG - Processing frame 11/139
+2025-12-19 11:59:37,967 - CricketBallTracker - DEBUG - Processing frame 12/139
+2025-12-19 11:59:38,014 - CricketBallTracker - DEBUG - Processing frame 13/139
+2025-12-19 11:59:38,069 - CricketBallTracker - DEBUG - Processing frame 14/139
+2025-12-19 11:59:38,113 - CricketBallTracker - DEBUG - Processing frame 15/139
+2025-12-19 11:59:38,157 - CricketBallTracker - DEBUG - Processing frame 16/139
+2025-12-19 11:59:38,200 - CricketBallTracker - DEBUG - Processing frame 17/139
+2025-12-19 11:59:38,247 - CricketBallTracker - DEBUG - Processing frame 18/139
+2025-12-19 11:59:38,291 - CricketBallTracker - DEBUG - Processing frame 19/139
+2025-12-19 11:59:38,337 - CricketBallTracker - DEBUG - Processing frame 20/139
+2025-12-19 11:59:38,392 - CricketBallTracker - DEBUG - Processing frame 21/139
+2025-12-19 11:59:38,443 - CricketBallTracker - DEBUG - Processing frame 22/139
+2025-12-19 11:59:38,487 - CricketBallTracker - DEBUG - Processing frame 23/139
+2025-12-19 11:59:38,532 - CricketBallTracker - DEBUG - Processing frame 24/139
+2025-12-19 11:59:38,576 - CricketBallTracker - DEBUG - Processing frame 25/139
+2025-12-19 11:59:38,631 - CricketBallTracker - DEBUG - Processing frame 26/139
+2025-12-19 11:59:38,676 - CricketBallTracker - DEBUG - Processing frame 27/139
+2025-12-19 11:59:38,715 - CricketBallTracker - DEBUG - Processing frame 28/139
+2025-12-19 11:59:38,758 - CricketBallTracker - DEBUG - Processing frame 29/139
+2025-12-19 11:59:38,800 - CricketBallTracker - DEBUG - Processing frame 30/139
+2025-12-19 11:59:38,843 - CricketBallTracker - DEBUG - Processing frame 31/139
+2025-12-19 11:59:38,886 - CricketBallTracker - DEBUG - Processing frame 32/139
+2025-12-19 11:59:38,931 - CricketBallTracker - DEBUG - Processing frame 33/139
+2025-12-19 11:59:38,974 - CricketBallTracker - DEBUG - Processing frame 34/139
+2025-12-19 11:59:39,020 - CricketBallTracker - DEBUG - Processing frame 35/139
+2025-12-19 11:59:39,064 - CricketBallTracker - DEBUG - Processing frame 36/139
+2025-12-19 11:59:39,110 - CricketBallTracker - DEBUG - Processing frame 37/139
+2025-12-19 11:59:39,164 - CricketBallTracker - DEBUG - Processing frame 38/139
+2025-12-19 11:59:39,211 - CricketBallTracker - DEBUG - Processing frame 39/139
+2025-12-19 11:59:39,256 - CricketBallTracker - DEBUG - Processing frame 40/139
+2025-12-19 11:59:39,305 - CricketBallTracker - DEBUG - Processing frame 41/139
+2025-12-19 11:59:39,350 - CricketBallTracker - DEBUG - Processing frame 42/139
+2025-12-19 11:59:39,395 - CricketBallTracker - DEBUG - Processing frame 43/139
+2025-12-19 11:59:39,443 - CricketBallTracker - DEBUG - Processing frame 44/139
+2025-12-19 11:59:39,492 - CricketBallTracker - DEBUG - Processing frame 45/139
+2025-12-19 11:59:39,540 - CricketBallTracker - DEBUG - Processing frame 46/139
+2025-12-19 11:59:39,596 - CricketBallTracker - DEBUG - Processing frame 47/139
+2025-12-19 11:59:39,655 - CricketBallTracker - DEBUG - Processing frame 48/139
+2025-12-19 11:59:39,707 - CricketBallTracker - DEBUG - Processing frame 49/139
+2025-12-19 11:59:39,769 - CricketBallTracker - DEBUG - Processing frame 50/139
+2025-12-19 11:59:39,826 - CricketBallTracker - INFO - Saved sample frame to /Users/bharat/Downloads/EDGEFLEET/results/classical/12_20251219_115937/sample_50.jpg
+2025-12-19 11:59:39,834 - CricketBallTracker - DEBUG - Processing frame 51/139
+2025-12-19 11:59:39,881 - CricketBallTracker - DEBUG - Processing frame 52/139
+2025-12-19 11:59:39,927 - CricketBallTracker - DEBUG - Processing frame 53/139
+2025-12-19 11:59:39,975 - CricketBallTracker - DEBUG - Processing frame 54/139
+2025-12-19 11:59:40,022 - CricketBallTracker - DEBUG - Processing frame 55/139
+2025-12-19 11:59:40,072 - CricketBallTracker - DEBUG - Processing frame 56/139
+2025-12-19 11:59:40,117 - CricketBallTracker - DEBUG - Processing frame 57/139
+2025-12-19 11:59:40,165 - CricketBallTracker - DEBUG - Processing frame 58/139
+2025-12-19 11:59:40,214 - CricketBallTracker - DEBUG - Processing frame 59/139
+2025-12-19 11:59:40,263 - CricketBallTracker - DEBUG - Processing frame 60/139
+2025-12-19 11:59:40,310 - CricketBallTracker - DEBUG - Processing frame 61/139
+2025-12-19 11:59:40,368 - CricketBallTracker - DEBUG - Processing frame 62/139
+2025-12-19 11:59:40,415 - CricketBallTracker - DEBUG - Processing frame 63/139
+2025-12-19 11:59:40,464 - CricketBallTracker - DEBUG - Processing frame 64/139
+2025-12-19 11:59:40,514 - CricketBallTracker - DEBUG - Processing frame 65/139
+2025-12-19 11:59:40,566 - CricketBallTracker - DEBUG - Processing frame 66/139
+2025-12-19 11:59:40,634 - CricketBallTracker - DEBUG - Processing frame 67/139
+2025-12-19 11:59:40,699 - CricketBallTracker - DEBUG - Processing frame 68/139
+2025-12-19 11:59:40,764 - CricketBallTracker - DEBUG - Processing frame 69/139
+2025-12-19 11:59:40,825 - CricketBallTracker - DEBUG - Processing frame 70/139
+2025-12-19 11:59:40,889 - CricketBallTracker - DEBUG - Processing frame 71/139
+2025-12-19 11:59:40,950 - CricketBallTracker - DEBUG - Processing frame 72/139
+2025-12-19 11:59:41,016 - CricketBallTracker - DEBUG - Processing frame 73/139
+2025-12-19 11:59:41,097 - CricketBallTracker - DEBUG - Processing frame 74/139
+2025-12-19 11:59:41,154 - CricketBallTracker - DEBUG - Processing frame 75/139
+2025-12-19 11:59:41,208 - CricketBallTracker - DEBUG - Processing frame 76/139
+2025-12-19 11:59:41,315 - CricketBallTracker - DEBUG - Processing frame 77/139
+2025-12-19 11:59:41,365 - CricketBallTracker - DEBUG - Processing frame 78/139
+2025-12-19 11:59:41,416 - CricketBallTracker - DEBUG - Processing frame 79/139
+2025-12-19 11:59:41,467 - CricketBallTracker - DEBUG - Processing frame 80/139
+2025-12-19 11:59:41,516 - CricketBallTracker - DEBUG - Processing frame 81/139
+2025-12-19 11:59:41,569 - CricketBallTracker - DEBUG - Processing frame 82/139
+2025-12-19 11:59:41,620 - CricketBallTracker - DEBUG - Processing frame 83/139
+2025-12-19 11:59:41,670 - CricketBallTracker - DEBUG - Processing frame 84/139
+2025-12-19 11:59:41,720 - CricketBallTracker - DEBUG - Processing frame 85/139
+2025-12-19 11:59:41,780 - CricketBallTracker - DEBUG - Processing frame 86/139
+2025-12-19 11:59:41,828 - CricketBallTracker - DEBUG - Processing frame 87/139
+2025-12-19 11:59:41,877 - CricketBallTracker - DEBUG - Processing frame 88/139
+2025-12-19 11:59:41,927 - CricketBallTracker - DEBUG - Processing frame 89/139
+2025-12-19 11:59:41,978 - CricketBallTracker - DEBUG - Processing frame 90/139
+2025-12-19 11:59:42,029 - CricketBallTracker - DEBUG - Processing frame 91/139
+2025-12-19 11:59:42,078 - CricketBallTracker - DEBUG - Processing frame 92/139
+2025-12-19 11:59:42,128 - CricketBallTracker - DEBUG - Processing frame 93/139
+2025-12-19 11:59:42,177 - CricketBallTracker - DEBUG - Processing frame 94/139
+2025-12-19 11:59:42,223 - CricketBallTracker - DEBUG - Processing frame 95/139
+2025-12-19 11:59:42,275 - CricketBallTracker - DEBUG - Processing frame 96/139
+2025-12-19 11:59:42,326 - CricketBallTracker - DEBUG - Processing frame 97/139
+2025-12-19 11:59:42,384 - CricketBallTracker - DEBUG - Processing frame 98/139
+2025-12-19 11:59:42,446 - CricketBallTracker - DEBUG - Processing frame 99/139
+2025-12-19 11:59:42,510 - CricketBallTracker - DEBUG - Processing frame 100/139
+2025-12-19 11:59:42,573 - CricketBallTracker - INFO - Saved sample frame to /Users/bharat/Downloads/EDGEFLEET/results/classical/12_20251219_115937/sample_100.jpg
+2025-12-19 11:59:42,581 - CricketBallTracker - DEBUG - Processing frame 101/139
+2025-12-19 11:59:42,639 - CricketBallTracker - DEBUG - Processing frame 102/139
+2025-12-19 11:59:42,729 - CricketBallTracker - DEBUG - Processing frame 103/139
+2025-12-19 11:59:42,786 - CricketBallTracker - DEBUG - Processing frame 104/139
+2025-12-19 11:59:42,838 - CricketBallTracker - DEBUG - Processing frame 105/139
+2025-12-19 11:59:42,893 - CricketBallTracker - DEBUG - Processing frame 106/139
+2025-12-19 11:59:42,945 - CricketBallTracker - DEBUG - Processing frame 107/139
+2025-12-19 11:59:42,997 - CricketBallTracker - DEBUG - Processing frame 108/139
+2025-12-19 11:59:43,047 - CricketBallTracker - DEBUG - Processing frame 109/139
+2025-12-19 11:59:43,108 - CricketBallTracker - DEBUG - Processing frame 110/139
+2025-12-19 11:59:43,158 - CricketBallTracker - DEBUG - Processing frame 111/139
+2025-12-19 11:59:43,209 - CricketBallTracker - DEBUG - Processing frame 112/139
+2025-12-19 11:59:43,258 - CricketBallTracker - DEBUG - Processing frame 113/139
+2025-12-19 11:59:43,307 - CricketBallTracker - DEBUG - Processing frame 114/139
+2025-12-19 11:59:43,357 - CricketBallTracker - DEBUG - Processing frame 115/139
+2025-12-19 11:59:43,408 - CricketBallTracker - DEBUG - Processing frame 116/139
+2025-12-19 11:59:43,464 - CricketBallTracker - DEBUG - Processing frame 117/139
+2025-12-19 11:59:43,525 - CricketBallTracker - DEBUG - Processing frame 118/139
+2025-12-19 11:59:43,581 - CricketBallTracker - DEBUG - Processing frame 119/139
+2025-12-19 11:59:43,631 - CricketBallTracker - DEBUG - Processing frame 120/139
+2025-12-19 11:59:43,680 - CricketBallTracker - DEBUG - Processing frame 121/139
+2025-12-19 11:59:43,740 - CricketBallTracker - DEBUG - Processing frame 122/139
+2025-12-19 11:59:43,792 - CricketBallTracker - DEBUG - Processing frame 123/139
+2025-12-19 11:59:43,841 - CricketBallTracker - DEBUG - Processing frame 124/139
+2025-12-19 11:59:43,894 - CricketBallTracker - DEBUG - Processing frame 125/139
+2025-12-19 11:59:43,944 - CricketBallTracker - DEBUG - Processing frame 126/139
+2025-12-19 11:59:43,995 - CricketBallTracker - DEBUG - Processing frame 127/139
+2025-12-19 11:59:44,044 - CricketBallTracker - DEBUG - Processing frame 128/139
+2025-12-19 11:59:44,097 - CricketBallTracker - DEBUG - Processing frame 129/139
+2025-12-19 11:59:44,145 - CricketBallTracker - DEBUG - Processing frame 130/139
+2025-12-19 11:59:44,196 - CricketBallTracker - DEBUG - Processing frame 131/139
+2025-12-19 11:59:44,245 - CricketBallTracker - DEBUG - Processing frame 132/139
+2025-12-19 11:59:44,295 - CricketBallTracker - DEBUG - Processing frame 133/139
+2025-12-19 11:59:44,357 - CricketBallTracker - DEBUG - Processing frame 134/139
+2025-12-19 11:59:44,411 - CricketBallTracker - DEBUG - Processing frame 135/139
+2025-12-19 11:59:44,461 - CricketBallTracker - DEBUG - Processing frame 136/139
+2025-12-19 11:59:44,509 - CricketBallTracker - DEBUG - Processing frame 137/139
+2025-12-19 11:59:44,557 - CricketBallTracker - DEBUG - Processing frame 138/139
+2025-12-19 11:59:44,607 - CricketBallTracker - INFO - Annotations saved to /Users/bharat/Downloads/EDGEFLEET/annotations/classical/12_20251219_115937.csv
+2025-12-19 11:59:44,607 - CricketBallTracker - INFO - Output video saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/12_20251219_115937/12_output.mp4
+2025-12-19 11:59:44,607 - CricketBallTracker - INFO - --- Performing Evaluation ---
+2025-12-19 11:59:44,613 - CricketBallTracker - INFO - Evaluation Results: {
+    "total_ground_truth_visible_balls": 132,
+    "detected_balls_matched": 0,
+    "recall": "0.0000",
+    "precision": "0.0000",
+    "mean_centroid_drift_pixels": "N/A"
+}
+2025-12-19 11:59:44,614 - CricketBallTracker - INFO - Evaluation metrics saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/12_20251219_115937/evaluation_metrics.json
+2025-12-19 11:59:44,614 - CricketBallTracker - INFO - --- Finished pipeline for: 12.mov ---
+2025-12-19 11:59:44,614 - CricketBallTracker - INFO - --- Starting pipeline for: 13.mov ---
+2025-12-19 11:59:44,615 - CricketBallTracker - INFO - Pipeline run starting for 13 with ID: 20251219_115944
+2025-12-19 11:59:44,615 - CricketBallTracker - INFO - Mode: EVALUATE
+2025-12-19 11:59:44,615 - CricketBallTracker - INFO - Initializing detector of type: classical
+2025-12-19 11:59:44,616 - CricketBallTracker - INFO - Configuration saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/13_20251219_115944
+2025-12-19 11:59:44,638 - CricketBallTracker - INFO - Output video will be saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/13_20251219_115944/13_output.mp4
+2025-12-19 11:59:44,671 - CricketBallTracker - DEBUG - Processing frame 1/178
+2025-12-19 11:59:44,707 - CricketBallTracker - DEBUG - Processing frame 2/178
+2025-12-19 11:59:44,760 - CricketBallTracker - DEBUG - Processing frame 3/178
+2025-12-19 11:59:44,816 - CricketBallTracker - DEBUG - Processing frame 4/178
+2025-12-19 11:59:44,875 - CricketBallTracker - DEBUG - Processing frame 5/178
+2025-12-19 11:59:44,935 - CricketBallTracker - DEBUG - Processing frame 6/178
+2025-12-19 11:59:44,990 - CricketBallTracker - DEBUG - Processing frame 7/178
+2025-12-19 11:59:45,035 - CricketBallTracker - DEBUG - Processing frame 8/178
+2025-12-19 11:59:45,080 - CricketBallTracker - DEBUG - Processing frame 9/178
+2025-12-19 11:59:45,134 - CricketBallTracker - DEBUG - Processing frame 10/178
+2025-12-19 11:59:45,181 - CricketBallTracker - DEBUG - Processing frame 11/178
+2025-12-19 11:59:45,224 - CricketBallTracker - DEBUG - Processing frame 12/178
+2025-12-19 11:59:45,272 - CricketBallTracker - DEBUG - Processing frame 13/178
+2025-12-19 11:59:45,329 - CricketBallTracker - DEBUG - Processing frame 14/178
+2025-12-19 11:59:45,374 - CricketBallTracker - DEBUG - Processing frame 15/178
+2025-12-19 11:59:45,421 - CricketBallTracker - DEBUG - Processing frame 16/178
+2025-12-19 11:59:45,465 - CricketBallTracker - DEBUG - Processing frame 17/178
+2025-12-19 11:59:45,510 - CricketBallTracker - DEBUG - Processing frame 18/178
+2025-12-19 11:59:45,554 - CricketBallTracker - DEBUG - Processing frame 19/178
+2025-12-19 11:59:45,600 - CricketBallTracker - DEBUG - Processing frame 20/178
+2025-12-19 11:59:45,646 - CricketBallTracker - DEBUG - Processing frame 21/178
+2025-12-19 11:59:45,692 - CricketBallTracker - DEBUG - Processing frame 22/178
+2025-12-19 11:59:45,737 - CricketBallTracker - DEBUG - Processing frame 23/178
+2025-12-19 11:59:45,793 - CricketBallTracker - DEBUG - Processing frame 24/178
+2025-12-19 11:59:45,850 - CricketBallTracker - DEBUG - Processing frame 25/178
+2025-12-19 11:59:45,921 - CricketBallTracker - DEBUG - Processing frame 26/178
+2025-12-19 11:59:45,980 - CricketBallTracker - DEBUG - Processing frame 27/178
+2025-12-19 11:59:46,041 - CricketBallTracker - DEBUG - Processing frame 28/178
+2025-12-19 11:59:46,094 - CricketBallTracker - DEBUG - Processing frame 29/178
+2025-12-19 11:59:46,153 - CricketBallTracker - DEBUG - Processing frame 30/178
+2025-12-19 11:59:46,211 - CricketBallTracker - DEBUG - Processing frame 31/178
+2025-12-19 11:59:46,262 - CricketBallTracker - DEBUG - Processing frame 32/178
+2025-12-19 11:59:46,320 - CricketBallTracker - DEBUG - Processing frame 33/178
+2025-12-19 11:59:46,372 - CricketBallTracker - DEBUG - Processing frame 34/178
+2025-12-19 11:59:46,427 - CricketBallTracker - DEBUG - Processing frame 35/178
+2025-12-19 11:59:46,519 - CricketBallTracker - DEBUG - Processing frame 36/178
+2025-12-19 11:59:46,571 - CricketBallTracker - DEBUG - Processing frame 37/178
+2025-12-19 11:59:46,632 - CricketBallTracker - DEBUG - Processing frame 38/178
+2025-12-19 11:59:46,688 - CricketBallTracker - DEBUG - Processing frame 39/178
+2025-12-19 11:59:46,740 - CricketBallTracker - DEBUG - Processing frame 40/178
+2025-12-19 11:59:46,793 - CricketBallTracker - DEBUG - Processing frame 41/178
+2025-12-19 11:59:46,845 - CricketBallTracker - DEBUG - Processing frame 42/178
+2025-12-19 11:59:46,900 - CricketBallTracker - DEBUG - Processing frame 43/178
+2025-12-19 11:59:46,954 - CricketBallTracker - DEBUG - Processing frame 44/178
+2025-12-19 11:59:47,009 - CricketBallTracker - DEBUG - Processing frame 45/178
+2025-12-19 11:59:47,063 - CricketBallTracker - DEBUG - Processing frame 46/178
+2025-12-19 11:59:47,119 - CricketBallTracker - DEBUG - Processing frame 47/178
+2025-12-19 11:59:47,174 - CricketBallTracker - DEBUG - Processing frame 48/178
+2025-12-19 11:59:47,230 - CricketBallTracker - DEBUG - Processing frame 49/178
+2025-12-19 11:59:47,293 - CricketBallTracker - DEBUG - Processing frame 50/178
+2025-12-19 11:59:47,355 - CricketBallTracker - INFO - Saved sample frame to /Users/bharat/Downloads/EDGEFLEET/results/classical/13_20251219_115944/sample_50.jpg
+2025-12-19 11:59:47,360 - CricketBallTracker - DEBUG - Processing frame 51/178
+2025-12-19 11:59:47,413 - CricketBallTracker - DEBUG - Processing frame 52/178
+2025-12-19 11:59:47,474 - CricketBallTracker - DEBUG - Processing frame 53/178
+2025-12-19 11:59:47,545 - CricketBallTracker - DEBUG - Processing frame 54/178
+2025-12-19 11:59:47,618 - CricketBallTracker - DEBUG - Processing frame 55/178
+2025-12-19 11:59:47,679 - CricketBallTracker - DEBUG - Processing frame 56/178
+2025-12-19 11:59:47,760 - CricketBallTracker - DEBUG - Processing frame 57/178
+2025-12-19 11:59:47,814 - CricketBallTracker - DEBUG - Processing frame 58/178
+2025-12-19 11:59:47,870 - CricketBallTracker - DEBUG - Processing frame 59/178
+2025-12-19 11:59:47,924 - CricketBallTracker - DEBUG - Processing frame 60/178
+2025-12-19 11:59:47,977 - CricketBallTracker - DEBUG - Processing frame 61/178
+2025-12-19 11:59:48,040 - CricketBallTracker - DEBUG - Processing frame 62/178
+2025-12-19 11:59:48,092 - CricketBallTracker - DEBUG - Processing frame 63/178
+2025-12-19 11:59:48,145 - CricketBallTracker - DEBUG - Processing frame 64/178
+2025-12-19 11:59:48,199 - CricketBallTracker - DEBUG - Processing frame 65/178
+2025-12-19 11:59:48,252 - CricketBallTracker - DEBUG - Processing frame 66/178
+2025-12-19 11:59:48,312 - CricketBallTracker - DEBUG - Processing frame 67/178
+2025-12-19 11:59:48,368 - CricketBallTracker - DEBUG - Processing frame 68/178
+2025-12-19 11:59:48,424 - CricketBallTracker - DEBUG - Processing frame 69/178
+2025-12-19 11:59:48,488 - CricketBallTracker - DEBUG - Processing frame 70/178
+2025-12-19 11:59:48,548 - CricketBallTracker - DEBUG - Processing frame 71/178
+2025-12-19 11:59:48,610 - CricketBallTracker - DEBUG - Processing frame 72/178
+2025-12-19 11:59:48,683 - CricketBallTracker - DEBUG - Processing frame 73/178
+2025-12-19 11:59:48,745 - CricketBallTracker - DEBUG - Processing frame 74/178
+2025-12-19 11:59:48,805 - CricketBallTracker - DEBUG - Processing frame 75/178
+2025-12-19 11:59:48,860 - CricketBallTracker - DEBUG - Processing frame 76/178
+2025-12-19 11:59:48,914 - CricketBallTracker - DEBUG - Processing frame 77/178
+2025-12-19 11:59:48,970 - CricketBallTracker - DEBUG - Processing frame 78/178
+2025-12-19 11:59:49,023 - CricketBallTracker - DEBUG - Processing frame 79/178
+2025-12-19 11:59:49,078 - CricketBallTracker - DEBUG - Processing frame 80/178
+2025-12-19 11:59:49,133 - CricketBallTracker - DEBUG - Processing frame 81/178
+2025-12-19 11:59:49,188 - CricketBallTracker - DEBUG - Processing frame 82/178
+2025-12-19 11:59:49,241 - CricketBallTracker - DEBUG - Processing frame 83/178
+2025-12-19 11:59:49,294 - CricketBallTracker - DEBUG - Processing frame 84/178
+2025-12-19 11:59:49,351 - CricketBallTracker - DEBUG - Processing frame 85/178
+2025-12-19 11:59:49,413 - CricketBallTracker - DEBUG - Processing frame 86/178
+2025-12-19 11:59:49,468 - CricketBallTracker - DEBUG - Processing frame 87/178
+2025-12-19 11:59:49,524 - CricketBallTracker - DEBUG - Processing frame 88/178
+2025-12-19 11:59:49,581 - CricketBallTracker - DEBUG - Processing frame 89/178
+2025-12-19 11:59:49,634 - CricketBallTracker - DEBUG - Processing frame 90/178
+2025-12-19 11:59:49,689 - CricketBallTracker - DEBUG - Processing frame 91/178
+2025-12-19 11:59:49,743 - CricketBallTracker - DEBUG - Processing frame 92/178
+2025-12-19 11:59:49,799 - CricketBallTracker - DEBUG - Processing frame 93/178
+2025-12-19 11:59:49,856 - CricketBallTracker - DEBUG - Processing frame 94/178
+2025-12-19 11:59:49,911 - CricketBallTracker - DEBUG - Processing frame 95/178
+2025-12-19 11:59:49,966 - CricketBallTracker - DEBUG - Processing frame 96/178
+2025-12-19 11:59:50,024 - CricketBallTracker - DEBUG - Processing frame 97/178
+2025-12-19 11:59:50,089 - CricketBallTracker - DEBUG - Processing frame 98/178
+2025-12-19 11:59:50,144 - CricketBallTracker - DEBUG - Processing frame 99/178
+2025-12-19 11:59:50,198 - CricketBallTracker - DEBUG - Processing frame 100/178
+2025-12-19 11:59:50,261 - CricketBallTracker - INFO - Saved sample frame to /Users/bharat/Downloads/EDGEFLEET/results/classical/13_20251219_115944/sample_100.jpg
+2025-12-19 11:59:50,266 - CricketBallTracker - DEBUG - Processing frame 101/178
+2025-12-19 11:59:50,320 - CricketBallTracker - DEBUG - Processing frame 102/178
+2025-12-19 11:59:50,375 - CricketBallTracker - DEBUG - Processing frame 103/178
+2025-12-19 11:59:50,440 - CricketBallTracker - DEBUG - Processing frame 104/178
+2025-12-19 11:59:50,509 - CricketBallTracker - DEBUG - Processing frame 105/178
+2025-12-19 11:59:50,581 - CricketBallTracker - DEBUG - Processing frame 106/178
+2025-12-19 11:59:50,637 - CricketBallTracker - DEBUG - Processing frame 107/178
+2025-12-19 11:59:50,693 - CricketBallTracker - DEBUG - Processing frame 108/178
+2025-12-19 11:59:50,749 - CricketBallTracker - DEBUG - Processing frame 109/178
+2025-12-19 11:59:50,813 - CricketBallTracker - DEBUG - Processing frame 110/178
+2025-12-19 11:59:50,884 - CricketBallTracker - DEBUG - Processing frame 111/178
+2025-12-19 11:59:50,954 - CricketBallTracker - DEBUG - Processing frame 112/178
+2025-12-19 11:59:51,028 - CricketBallTracker - DEBUG - Processing frame 113/178
+2025-12-19 11:59:51,099 - CricketBallTracker - DEBUG - Processing frame 114/178
+2025-12-19 11:59:51,164 - CricketBallTracker - DEBUG - Processing frame 115/178
+2025-12-19 11:59:51,226 - CricketBallTracker - DEBUG - Processing frame 116/178
+2025-12-19 11:59:51,322 - CricketBallTracker - DEBUG - Processing frame 117/178
+2025-12-19 11:59:51,387 - CricketBallTracker - DEBUG - Processing frame 118/178
+2025-12-19 11:59:51,452 - CricketBallTracker - DEBUG - Processing frame 119/178
+2025-12-19 11:59:51,516 - CricketBallTracker - DEBUG - Processing frame 120/178
+2025-12-19 11:59:51,587 - CricketBallTracker - DEBUG - Processing frame 121/178
+2025-12-19 11:59:51,692 - CricketBallTracker - DEBUG - Processing frame 122/178
+2025-12-19 11:59:51,748 - CricketBallTracker - DEBUG - Processing frame 123/178
+2025-12-19 11:59:51,802 - CricketBallTracker - DEBUG - Processing frame 124/178
+2025-12-19 11:59:51,858 - CricketBallTracker - DEBUG - Processing frame 125/178
+2025-12-19 11:59:51,911 - CricketBallTracker - DEBUG - Processing frame 126/178
+2025-12-19 11:59:51,968 - CricketBallTracker - DEBUG - Processing frame 127/178
+2025-12-19 11:59:52,022 - CricketBallTracker - DEBUG - Processing frame 128/178
+2025-12-19 11:59:52,078 - CricketBallTracker - DEBUG - Processing frame 129/178
+2025-12-19 11:59:52,137 - CricketBallTracker - DEBUG - Processing frame 130/178
+2025-12-19 11:59:52,191 - CricketBallTracker - DEBUG - Processing frame 131/178
+2025-12-19 11:59:52,248 - CricketBallTracker - DEBUG - Processing frame 132/178
+2025-12-19 11:59:52,304 - CricketBallTracker - DEBUG - Processing frame 133/178
+2025-12-19 11:59:52,368 - CricketBallTracker - DEBUG - Processing frame 134/178
+2025-12-19 11:59:52,425 - CricketBallTracker - DEBUG - Processing frame 135/178
+2025-12-19 11:59:52,481 - CricketBallTracker - DEBUG - Processing frame 136/178
+2025-12-19 11:59:52,536 - CricketBallTracker - DEBUG - Processing frame 137/178
+2025-12-19 11:59:52,590 - CricketBallTracker - DEBUG - Processing frame 138/178
+2025-12-19 11:59:52,646 - CricketBallTracker - DEBUG - Processing frame 139/178
+2025-12-19 11:59:52,700 - CricketBallTracker - DEBUG - Processing frame 140/178
+2025-12-19 11:59:52,757 - CricketBallTracker - DEBUG - Processing frame 141/178
+2025-12-19 11:59:52,811 - CricketBallTracker - DEBUG - Processing frame 142/178
+2025-12-19 11:59:52,867 - CricketBallTracker - DEBUG - Processing frame 143/178
+2025-12-19 11:59:52,921 - CricketBallTracker - DEBUG - Processing frame 144/178
+2025-12-19 11:59:52,977 - CricketBallTracker - DEBUG - Processing frame 145/178
+2025-12-19 11:59:53,043 - CricketBallTracker - DEBUG - Processing frame 146/178
+2025-12-19 11:59:53,099 - CricketBallTracker - DEBUG - Processing frame 147/178
+2025-12-19 11:59:53,152 - CricketBallTracker - DEBUG - Processing frame 148/178
+2025-12-19 11:59:53,206 - CricketBallTracker - DEBUG - Processing frame 149/178
+2025-12-19 11:59:53,260 - CricketBallTracker - DEBUG - Processing frame 150/178
+2025-12-19 11:59:53,322 - CricketBallTracker - INFO - Saved sample frame to /Users/bharat/Downloads/EDGEFLEET/results/classical/13_20251219_115944/sample_150.jpg
+2025-12-19 11:59:53,327 - CricketBallTracker - DEBUG - Processing frame 151/178
+2025-12-19 11:59:53,380 - CricketBallTracker - DEBUG - Processing frame 152/178
+2025-12-19 11:59:53,438 - CricketBallTracker - DEBUG - Processing frame 153/178
+2025-12-19 11:59:53,502 - CricketBallTracker - DEBUG - Processing frame 154/178
+2025-12-19 11:59:53,564 - CricketBallTracker - DEBUG - Processing frame 155/178
+2025-12-19 11:59:53,645 - CricketBallTracker - DEBUG - Processing frame 156/178
+2025-12-19 11:59:53,703 - CricketBallTracker - DEBUG - Processing frame 157/178
+2025-12-19 11:59:53,770 - CricketBallTracker - DEBUG - Processing frame 158/178
+2025-12-19 11:59:53,826 - CricketBallTracker - DEBUG - Processing frame 159/178
+2025-12-19 11:59:53,880 - CricketBallTracker - DEBUG - Processing frame 160/178
+2025-12-19 11:59:53,936 - CricketBallTracker - DEBUG - Processing frame 161/178
+2025-12-19 11:59:53,991 - CricketBallTracker - DEBUG - Processing frame 162/178
+2025-12-19 11:59:54,046 - CricketBallTracker - DEBUG - Processing frame 163/178
+2025-12-19 11:59:54,099 - CricketBallTracker - DEBUG - Processing frame 164/178
+2025-12-19 11:59:54,165 - CricketBallTracker - DEBUG - Processing frame 165/178
+2025-12-19 11:59:54,223 - CricketBallTracker - DEBUG - Processing frame 166/178
+2025-12-19 11:59:54,280 - CricketBallTracker - DEBUG - Processing frame 167/178
+2025-12-19 11:59:54,337 - CricketBallTracker - DEBUG - Processing frame 168/178
+2025-12-19 11:59:54,392 - CricketBallTracker - DEBUG - Processing frame 169/178
+2025-12-19 11:59:54,470 - CricketBallTracker - DEBUG - Processing frame 170/178
+2025-12-19 11:59:54,542 - CricketBallTracker - DEBUG - Processing frame 171/178
+2025-12-19 11:59:54,604 - CricketBallTracker - DEBUG - Processing frame 172/178
+2025-12-19 11:59:54,662 - CricketBallTracker - DEBUG - Processing frame 173/178
+2025-12-19 11:59:54,719 - CricketBallTracker - DEBUG - Processing frame 174/178
+2025-12-19 11:59:54,776 - CricketBallTracker - DEBUG - Processing frame 175/178
+2025-12-19 11:59:54,836 - CricketBallTracker - DEBUG - Processing frame 176/178
+2025-12-19 11:59:54,890 - CricketBallTracker - DEBUG - Processing frame 177/178
+2025-12-19 11:59:54,947 - CricketBallTracker - DEBUG - Processing frame 178/178
+2025-12-19 11:59:55,001 - CricketBallTracker - INFO - Annotations saved to /Users/bharat/Downloads/EDGEFLEET/annotations/classical/13_20251219_115944.csv
+2025-12-19 11:59:55,001 - CricketBallTracker - INFO - Output video saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/13_20251219_115944/13_output.mp4
+2025-12-19 11:59:55,001 - CricketBallTracker - INFO - --- Performing Evaluation ---
+2025-12-19 11:59:55,008 - CricketBallTracker - INFO - Evaluation Results: {
+    "total_ground_truth_visible_balls": 88,
+    "detected_balls_matched": 0,
+    "recall": "0.0000",
+    "precision": "0.0000",
+    "mean_centroid_drift_pixels": "N/A"
+}
+2025-12-19 11:59:55,008 - CricketBallTracker - INFO - Evaluation metrics saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/13_20251219_115944/evaluation_metrics.json
+2025-12-19 11:59:55,008 - CricketBallTracker - INFO - --- Finished pipeline for: 13.mov ---
+2025-12-19 11:59:55,009 - CricketBallTracker - INFO - --- Starting pipeline for: 11.mov ---
+2025-12-19 11:59:55,009 - CricketBallTracker - INFO - Pipeline run starting for 11 with ID: 20251219_115955
+2025-12-19 11:59:55,009 - CricketBallTracker - INFO - Mode: EVALUATE
+2025-12-19 11:59:55,009 - CricketBallTracker - INFO - Initializing detector of type: classical
+2025-12-19 11:59:55,010 - CricketBallTracker - INFO - Configuration saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/11_20251219_115955
+2025-12-19 11:59:55,039 - CricketBallTracker - INFO - Output video will be saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/11_20251219_115955/11_output.mp4
+2025-12-19 11:59:55,076 - CricketBallTracker - DEBUG - Processing frame 1/177
+2025-12-19 11:59:55,116 - CricketBallTracker - DEBUG - Processing frame 2/177
+2025-12-19 11:59:55,170 - CricketBallTracker - DEBUG - Processing frame 3/177
+2025-12-19 11:59:55,213 - CricketBallTracker - DEBUG - Processing frame 4/177
+2025-12-19 11:59:55,255 - CricketBallTracker - DEBUG - Processing frame 5/177
+2025-12-19 11:59:55,301 - CricketBallTracker - DEBUG - Processing frame 6/177
+2025-12-19 11:59:55,346 - CricketBallTracker - DEBUG - Processing frame 7/177
+2025-12-19 11:59:55,388 - CricketBallTracker - DEBUG - Processing frame 8/177
+2025-12-19 11:59:55,432 - CricketBallTracker - DEBUG - Processing frame 9/177
+2025-12-19 11:59:55,493 - CricketBallTracker - DEBUG - Processing frame 10/177
+2025-12-19 11:59:55,548 - CricketBallTracker - DEBUG - Processing frame 11/177
+2025-12-19 11:59:55,604 - CricketBallTracker - DEBUG - Processing frame 12/177
+2025-12-19 11:59:55,656 - CricketBallTracker - DEBUG - Processing frame 13/177
+2025-12-19 11:59:55,720 - CricketBallTracker - DEBUG - Processing frame 14/177
+2025-12-19 11:59:55,771 - CricketBallTracker - DEBUG - Processing frame 15/177
+2025-12-19 11:59:55,818 - CricketBallTracker - DEBUG - Processing frame 16/177
+2025-12-19 11:59:55,866 - CricketBallTracker - DEBUG - Processing frame 17/177
+2025-12-19 11:59:55,930 - CricketBallTracker - DEBUG - Processing frame 18/177
+2025-12-19 11:59:56,007 - CricketBallTracker - DEBUG - Processing frame 19/177
+2025-12-19 11:59:56,078 - CricketBallTracker - DEBUG - Processing frame 20/177
+2025-12-19 11:59:56,141 - CricketBallTracker - DEBUG - Processing frame 21/177
+2025-12-19 11:59:56,193 - CricketBallTracker - DEBUG - Processing frame 22/177
+2025-12-19 11:59:56,241 - CricketBallTracker - DEBUG - Processing frame 23/177
+2025-12-19 11:59:56,304 - CricketBallTracker - DEBUG - Processing frame 24/177
+2025-12-19 11:59:56,361 - CricketBallTracker - DEBUG - Processing frame 25/177
+2025-12-19 11:59:56,460 - CricketBallTracker - DEBUG - Processing frame 26/177
+2025-12-19 11:59:56,514 - CricketBallTracker - DEBUG - Processing frame 27/177
+2025-12-19 11:59:56,572 - CricketBallTracker - DEBUG - Processing frame 28/177
+2025-12-19 11:59:56,627 - CricketBallTracker - DEBUG - Processing frame 29/177
+2025-12-19 11:59:56,687 - CricketBallTracker - DEBUG - Processing frame 30/177
+2025-12-19 11:59:56,744 - CricketBallTracker - DEBUG - Processing frame 31/177
+2025-12-19 11:59:56,800 - CricketBallTracker - DEBUG - Processing frame 32/177
+2025-12-19 11:59:56,854 - CricketBallTracker - DEBUG - Processing frame 33/177
+2025-12-19 11:59:56,911 - CricketBallTracker - DEBUG - Processing frame 34/177
+2025-12-19 11:59:56,968 - CricketBallTracker - DEBUG - Processing frame 35/177
+2025-12-19 11:59:57,023 - CricketBallTracker - DEBUG - Processing frame 36/177
+2025-12-19 11:59:57,080 - CricketBallTracker - DEBUG - Processing frame 37/177
+2025-12-19 11:59:57,148 - CricketBallTracker - DEBUG - Processing frame 38/177
+2025-12-19 11:59:57,207 - CricketBallTracker - DEBUG - Processing frame 39/177
+2025-12-19 11:59:57,273 - CricketBallTracker - DEBUG - Processing frame 40/177
+2025-12-19 11:59:57,337 - CricketBallTracker - DEBUG - Processing frame 41/177
+2025-12-19 11:59:57,408 - CricketBallTracker - DEBUG - Processing frame 42/177
+2025-12-19 11:59:57,525 - CricketBallTracker - DEBUG - Processing frame 43/177
+2025-12-19 11:59:57,588 - CricketBallTracker - DEBUG - Processing frame 44/177
+2025-12-19 11:59:57,645 - CricketBallTracker - DEBUG - Processing frame 45/177
+2025-12-19 11:59:57,702 - CricketBallTracker - DEBUG - Processing frame 46/177
+2025-12-19 11:59:57,762 - CricketBallTracker - DEBUG - Processing frame 47/177
+2025-12-19 11:59:57,821 - CricketBallTracker - DEBUG - Processing frame 48/177
+2025-12-19 11:59:57,879 - CricketBallTracker - DEBUG - Processing frame 49/177
+2025-12-19 11:59:57,948 - CricketBallTracker - DEBUG - Processing frame 50/177
+2025-12-19 11:59:58,013 - CricketBallTracker - INFO - Saved sample frame to /Users/bharat/Downloads/EDGEFLEET/results/classical/11_20251219_115955/sample_50.jpg
+2025-12-19 11:59:58,018 - CricketBallTracker - DEBUG - Processing frame 51/177
+2025-12-19 11:59:58,074 - CricketBallTracker - DEBUG - Processing frame 52/177
+2025-12-19 11:59:58,131 - CricketBallTracker - DEBUG - Processing frame 53/177
+2025-12-19 11:59:58,187 - CricketBallTracker - DEBUG - Processing frame 54/177
+2025-12-19 11:59:58,252 - CricketBallTracker - DEBUG - Processing frame 55/177
+2025-12-19 11:59:58,315 - CricketBallTracker - DEBUG - Processing frame 56/177
+2025-12-19 11:59:58,387 - CricketBallTracker - DEBUG - Processing frame 57/177
+2025-12-19 11:59:58,451 - CricketBallTracker - DEBUG - Processing frame 58/177
+2025-12-19 11:59:58,512 - CricketBallTracker - DEBUG - Processing frame 59/177
+2025-12-19 11:59:58,569 - CricketBallTracker - DEBUG - Processing frame 60/177
+2025-12-19 11:59:58,631 - CricketBallTracker - DEBUG - Processing frame 61/177
+2025-12-19 11:59:58,701 - CricketBallTracker - DEBUG - Processing frame 62/177
+2025-12-19 11:59:58,760 - CricketBallTracker - DEBUG - Processing frame 63/177
+2025-12-19 11:59:58,821 - CricketBallTracker - DEBUG - Processing frame 64/177
+2025-12-19 11:59:58,876 - CricketBallTracker - DEBUG - Processing frame 65/177
+2025-12-19 11:59:58,933 - CricketBallTracker - DEBUG - Processing frame 66/177
+2025-12-19 11:59:58,992 - CricketBallTracker - DEBUG - Processing frame 67/177
+2025-12-19 11:59:59,052 - CricketBallTracker - DEBUG - Processing frame 68/177
+2025-12-19 11:59:59,108 - CricketBallTracker - DEBUG - Processing frame 69/177
+2025-12-19 11:59:59,168 - CricketBallTracker - DEBUG - Processing frame 70/177
+2025-12-19 11:59:59,229 - CricketBallTracker - DEBUG - Processing frame 71/177
+2025-12-19 11:59:59,301 - CricketBallTracker - DEBUG - Processing frame 72/177
+2025-12-19 11:59:59,362 - CricketBallTracker - DEBUG - Processing frame 73/177
+2025-12-19 11:59:59,441 - CricketBallTracker - DEBUG - Processing frame 74/177
+2025-12-19 11:59:59,500 - CricketBallTracker - DEBUG - Processing frame 75/177
+2025-12-19 11:59:59,561 - CricketBallTracker - DEBUG - Processing frame 76/177
+2025-12-19 11:59:59,618 - CricketBallTracker - DEBUG - Processing frame 77/177
+2025-12-19 11:59:59,675 - CricketBallTracker - DEBUG - Processing frame 78/177
+2025-12-19 11:59:59,737 - CricketBallTracker - DEBUG - Processing frame 79/177
+2025-12-19 11:59:59,796 - CricketBallTracker - DEBUG - Processing frame 80/177
+2025-12-19 11:59:59,856 - CricketBallTracker - DEBUG - Processing frame 81/177
+2025-12-19 11:59:59,916 - CricketBallTracker - DEBUG - Processing frame 82/177
+2025-12-19 11:59:59,975 - CricketBallTracker - DEBUG - Processing frame 83/177
+2025-12-19 12:00:00,033 - CricketBallTracker - DEBUG - Processing frame 84/177
+2025-12-19 12:00:00,093 - CricketBallTracker - DEBUG - Processing frame 85/177
+2025-12-19 12:00:00,163 - CricketBallTracker - DEBUG - Processing frame 86/177
+2025-12-19 12:00:00,223 - CricketBallTracker - DEBUG - Processing frame 87/177
+2025-12-19 12:00:00,281 - CricketBallTracker - DEBUG - Processing frame 88/177
+2025-12-19 12:00:00,342 - CricketBallTracker - DEBUG - Processing frame 89/177
+2025-12-19 12:00:00,399 - CricketBallTracker - DEBUG - Processing frame 90/177
+2025-12-19 12:00:00,458 - CricketBallTracker - DEBUG - Processing frame 91/177
+2025-12-19 12:00:00,517 - CricketBallTracker - DEBUG - Processing frame 92/177
+2025-12-19 12:00:00,576 - CricketBallTracker - DEBUG - Processing frame 93/177
+2025-12-19 12:00:00,637 - CricketBallTracker - DEBUG - Processing frame 94/177
+2025-12-19 12:00:00,696 - CricketBallTracker - DEBUG - Processing frame 95/177
+2025-12-19 12:00:00,756 - CricketBallTracker - DEBUG - Processing frame 96/177
+2025-12-19 12:00:00,816 - CricketBallTracker - DEBUG - Processing frame 97/177
+2025-12-19 12:00:00,886 - CricketBallTracker - DEBUG - Processing frame 98/177
+2025-12-19 12:00:00,953 - CricketBallTracker - DEBUG - Processing frame 99/177
+2025-12-19 12:00:01,032 - CricketBallTracker - DEBUG - Processing frame 100/177
+2025-12-19 12:00:01,116 - CricketBallTracker - INFO - Saved sample frame to /Users/bharat/Downloads/EDGEFLEET/results/classical/11_20251219_115955/sample_100.jpg
+2025-12-19 12:00:01,125 - CricketBallTracker - DEBUG - Processing frame 101/177
+2025-12-19 12:00:01,192 - CricketBallTracker - DEBUG - Processing frame 102/177
+2025-12-19 12:00:01,255 - CricketBallTracker - DEBUG - Processing frame 103/177
+2025-12-19 12:00:01,320 - CricketBallTracker - DEBUG - Processing frame 104/177
+2025-12-19 12:00:01,384 - CricketBallTracker - DEBUG - Processing frame 105/177
+2025-12-19 12:00:01,476 - CricketBallTracker - DEBUG - Processing frame 106/177
+2025-12-19 12:00:01,568 - CricketBallTracker - DEBUG - Processing frame 107/177
+2025-12-19 12:00:01,627 - CricketBallTracker - DEBUG - Processing frame 108/177
+2025-12-19 12:00:01,700 - CricketBallTracker - DEBUG - Processing frame 109/177
+2025-12-19 12:00:01,814 - CricketBallTracker - DEBUG - Processing frame 110/177
+2025-12-19 12:00:01,880 - CricketBallTracker - DEBUG - Processing frame 111/177
+2025-12-19 12:00:01,944 - CricketBallTracker - DEBUG - Processing frame 112/177
+2025-12-19 12:00:02,007 - CricketBallTracker - DEBUG - Processing frame 113/177
+2025-12-19 12:00:02,071 - CricketBallTracker - DEBUG - Processing frame 114/177
+2025-12-19 12:00:02,131 - CricketBallTracker - DEBUG - Processing frame 115/177
+2025-12-19 12:00:02,195 - CricketBallTracker - DEBUG - Processing frame 116/177
+2025-12-19 12:00:02,257 - CricketBallTracker - DEBUG - Processing frame 117/177
+2025-12-19 12:00:02,318 - CricketBallTracker - DEBUG - Processing frame 118/177
+2025-12-19 12:00:02,379 - CricketBallTracker - DEBUG - Processing frame 119/177
+2025-12-19 12:00:02,440 - CricketBallTracker - DEBUG - Processing frame 120/177
+2025-12-19 12:00:02,499 - CricketBallTracker - DEBUG - Processing frame 121/177
+2025-12-19 12:00:02,587 - CricketBallTracker - DEBUG - Processing frame 122/177
+2025-12-19 12:00:02,664 - CricketBallTracker - DEBUG - Processing frame 123/177
+2025-12-19 12:00:02,734 - CricketBallTracker - DEBUG - Processing frame 124/177
+2025-12-19 12:00:02,798 - CricketBallTracker - DEBUG - Processing frame 125/177
+2025-12-19 12:00:02,859 - CricketBallTracker - DEBUG - Processing frame 126/177
+2025-12-19 12:00:02,921 - CricketBallTracker - DEBUG - Processing frame 127/177
+2025-12-19 12:00:02,983 - CricketBallTracker - DEBUG - Processing frame 128/177
+2025-12-19 12:00:03,045 - CricketBallTracker - DEBUG - Processing frame 129/177
+2025-12-19 12:00:03,110 - CricketBallTracker - DEBUG - Processing frame 130/177
+2025-12-19 12:00:03,174 - CricketBallTracker - DEBUG - Processing frame 131/177
+2025-12-19 12:00:03,237 - CricketBallTracker - DEBUG - Processing frame 132/177
+2025-12-19 12:00:03,299 - CricketBallTracker - DEBUG - Processing frame 133/177
+2025-12-19 12:00:03,369 - CricketBallTracker - DEBUG - Processing frame 134/177
+2025-12-19 12:00:03,430 - CricketBallTracker - DEBUG - Processing frame 135/177
+2025-12-19 12:00:03,491 - CricketBallTracker - DEBUG - Processing frame 136/177
+2025-12-19 12:00:03,552 - CricketBallTracker - DEBUG - Processing frame 137/177
+2025-12-19 12:00:03,613 - CricketBallTracker - DEBUG - Processing frame 138/177
+2025-12-19 12:00:03,678 - CricketBallTracker - DEBUG - Processing frame 139/177
+2025-12-19 12:00:03,737 - CricketBallTracker - DEBUG - Processing frame 140/177
+2025-12-19 12:00:03,802 - CricketBallTracker - DEBUG - Processing frame 141/177
+2025-12-19 12:00:03,864 - CricketBallTracker - DEBUG - Processing frame 142/177
+2025-12-19 12:00:03,926 - CricketBallTracker - DEBUG - Processing frame 143/177
+2025-12-19 12:00:03,986 - CricketBallTracker - DEBUG - Processing frame 144/177
+2025-12-19 12:00:04,050 - CricketBallTracker - DEBUG - Processing frame 145/177
+2025-12-19 12:00:04,125 - CricketBallTracker - DEBUG - Processing frame 146/177
+2025-12-19 12:00:04,187 - CricketBallTracker - DEBUG - Processing frame 147/177
+2025-12-19 12:00:04,245 - CricketBallTracker - DEBUG - Processing frame 148/177
+2025-12-19 12:00:04,306 - CricketBallTracker - DEBUG - Processing frame 149/177
+2025-12-19 12:00:04,366 - CricketBallTracker - DEBUG - Processing frame 150/177
+2025-12-19 12:00:04,435 - CricketBallTracker - INFO - Saved sample frame to /Users/bharat/Downloads/EDGEFLEET/results/classical/11_20251219_115955/sample_150.jpg
+2025-12-19 12:00:04,440 - CricketBallTracker - DEBUG - Processing frame 151/177
+2025-12-19 12:00:04,510 - CricketBallTracker - DEBUG - Processing frame 152/177
+2025-12-19 12:00:04,575 - CricketBallTracker - DEBUG - Processing frame 153/177
+2025-12-19 12:00:04,642 - CricketBallTracker - DEBUG - Processing frame 154/177
+2025-12-19 12:00:04,715 - CricketBallTracker - DEBUG - Processing frame 155/177
+2025-12-19 12:00:04,774 - CricketBallTracker - DEBUG - Processing frame 156/177
+2025-12-19 12:00:04,834 - CricketBallTracker - DEBUG - Processing frame 157/177
+2025-12-19 12:00:04,905 - CricketBallTracker - DEBUG - Processing frame 158/177
+2025-12-19 12:00:04,967 - CricketBallTracker - DEBUG - Processing frame 159/177
+2025-12-19 12:00:05,027 - CricketBallTracker - DEBUG - Processing frame 160/177
+2025-12-19 12:00:05,088 - CricketBallTracker - DEBUG - Processing frame 161/177
+2025-12-19 12:00:05,146 - CricketBallTracker - DEBUG - Processing frame 162/177
+2025-12-19 12:00:05,207 - CricketBallTracker - DEBUG - Processing frame 163/177
+2025-12-19 12:00:05,265 - CricketBallTracker - DEBUG - Processing frame 164/177
+2025-12-19 12:00:05,325 - CricketBallTracker - DEBUG - Processing frame 165/177
+2025-12-19 12:00:05,384 - CricketBallTracker - DEBUG - Processing frame 166/177
+2025-12-19 12:00:05,443 - CricketBallTracker - DEBUG - Processing frame 167/177
+2025-12-19 12:00:05,509 - CricketBallTracker - DEBUG - Processing frame 168/177
+2025-12-19 12:00:05,575 - CricketBallTracker - DEBUG - Processing frame 169/177
+2025-12-19 12:00:05,658 - CricketBallTracker - DEBUG - Processing frame 170/177
+2025-12-19 12:00:05,722 - CricketBallTracker - DEBUG - Processing frame 171/177
+2025-12-19 12:00:05,782 - CricketBallTracker - DEBUG - Processing frame 172/177
+2025-12-19 12:00:05,843 - CricketBallTracker - DEBUG - Processing frame 173/177
+2025-12-19 12:00:05,903 - CricketBallTracker - DEBUG - Processing frame 174/177
+2025-12-19 12:00:05,976 - CricketBallTracker - DEBUG - Processing frame 175/177
+2025-12-19 12:00:06,055 - CricketBallTracker - DEBUG - Processing frame 176/177
+2025-12-19 12:00:06,131 - CricketBallTracker - DEBUG - Processing frame 177/177
+2025-12-19 12:00:06,201 - CricketBallTracker - INFO - Annotations saved to /Users/bharat/Downloads/EDGEFLEET/annotations/classical/11_20251219_115955.csv
+2025-12-19 12:00:06,201 - CricketBallTracker - INFO - Output video saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/11_20251219_115955/11_output.mp4
+2025-12-19 12:00:06,201 - CricketBallTracker - INFO - --- Performing Evaluation ---
+2025-12-19 12:00:06,208 - CricketBallTracker - INFO - Evaluation Results: {
+    "total_ground_truth_visible_balls": 91,
+    "detected_balls_matched": 0,
+    "recall": "0.0000",
+    "precision": "0.0000",
+    "mean_centroid_drift_pixels": "N/A"
+}
+2025-12-19 12:00:06,209 - CricketBallTracker - INFO - Evaluation metrics saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/11_20251219_115955/evaluation_metrics.json
+2025-12-19 12:00:06,209 - CricketBallTracker - INFO - --- Finished pipeline for: 11.mov ---
+2025-12-19 12:00:06,209 - CricketBallTracker - INFO - --- Starting pipeline for: 10.mov ---
+2025-12-19 12:00:06,210 - CricketBallTracker - INFO - Pipeline run starting for 10 with ID: 20251219_120006
+2025-12-19 12:00:06,210 - CricketBallTracker - INFO - Mode: EVALUATE
+2025-12-19 12:00:06,211 - CricketBallTracker - INFO - Initializing detector of type: classical
+2025-12-19 12:00:06,211 - CricketBallTracker - INFO - Configuration saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/10_20251219_120006
+2025-12-19 12:00:06,229 - CricketBallTracker - INFO - Output video will be saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/10_20251219_120006/10_output.mp4
+2025-12-19 12:00:06,257 - CricketBallTracker - DEBUG - Processing frame 1/202
+2025-12-19 12:00:06,296 - CricketBallTracker - DEBUG - Processing frame 2/202
+2025-12-19 12:00:06,346 - CricketBallTracker - DEBUG - Processing frame 3/202
+2025-12-19 12:00:06,395 - CricketBallTracker - DEBUG - Processing frame 4/202
+2025-12-19 12:00:06,438 - CricketBallTracker - DEBUG - Processing frame 5/202
+2025-12-19 12:00:06,520 - CricketBallTracker - DEBUG - Processing frame 6/202
+2025-12-19 12:00:06,580 - CricketBallTracker - DEBUG - Processing frame 7/202
+2025-12-19 12:00:06,628 - CricketBallTracker - DEBUG - Processing frame 8/202
+2025-12-19 12:00:06,677 - CricketBallTracker - DEBUG - Processing frame 9/202
+2025-12-19 12:00:06,729 - CricketBallTracker - DEBUG - Processing frame 10/202
+2025-12-19 12:00:06,786 - CricketBallTracker - DEBUG - Processing frame 11/202
+2025-12-19 12:00:06,886 - CricketBallTracker - DEBUG - Processing frame 12/202
+2025-12-19 12:00:06,927 - CricketBallTracker - DEBUG - Processing frame 13/202
+2025-12-19 12:00:06,976 - CricketBallTracker - DEBUG - Processing frame 14/202
+2025-12-19 12:00:07,020 - CricketBallTracker - DEBUG - Processing frame 15/202
+2025-12-19 12:00:07,063 - CricketBallTracker - DEBUG - Processing frame 16/202
+2025-12-19 12:00:07,104 - CricketBallTracker - DEBUG - Processing frame 17/202
+2025-12-19 12:00:07,148 - CricketBallTracker - DEBUG - Processing frame 18/202
+2025-12-19 12:00:07,189 - CricketBallTracker - DEBUG - Processing frame 19/202
+2025-12-19 12:00:07,234 - CricketBallTracker - DEBUG - Processing frame 20/202
+2025-12-19 12:00:07,277 - CricketBallTracker - DEBUG - Processing frame 21/202
+2025-12-19 12:00:07,319 - CricketBallTracker - DEBUG - Processing frame 22/202
+2025-12-19 12:00:07,361 - CricketBallTracker - DEBUG - Processing frame 23/202
+2025-12-19 12:00:07,405 - CricketBallTracker - DEBUG - Processing frame 24/202
+2025-12-19 12:00:07,447 - CricketBallTracker - DEBUG - Processing frame 25/202
+2025-12-19 12:00:07,498 - CricketBallTracker - DEBUG - Processing frame 26/202
+2025-12-19 12:00:07,541 - CricketBallTracker - DEBUG - Processing frame 27/202
+2025-12-19 12:00:07,595 - CricketBallTracker - DEBUG - Processing frame 28/202
+2025-12-19 12:00:07,657 - CricketBallTracker - DEBUG - Processing frame 29/202
+2025-12-19 12:00:07,705 - CricketBallTracker - DEBUG - Processing frame 30/202
+2025-12-19 12:00:07,757 - CricketBallTracker - DEBUG - Processing frame 31/202
+2025-12-19 12:00:07,804 - CricketBallTracker - DEBUG - Processing frame 32/202
+2025-12-19 12:00:07,847 - CricketBallTracker - DEBUG - Processing frame 33/202
+2025-12-19 12:00:07,892 - CricketBallTracker - DEBUG - Processing frame 34/202
+2025-12-19 12:00:07,937 - CricketBallTracker - DEBUG - Processing frame 35/202
+2025-12-19 12:00:07,979 - CricketBallTracker - DEBUG - Processing frame 36/202
+2025-12-19 12:00:08,022 - CricketBallTracker - DEBUG - Processing frame 37/202
+2025-12-19 12:00:08,073 - CricketBallTracker - DEBUG - Processing frame 38/202
+2025-12-19 12:00:08,120 - CricketBallTracker - DEBUG - Processing frame 39/202
+2025-12-19 12:00:08,163 - CricketBallTracker - DEBUG - Processing frame 40/202
+2025-12-19 12:00:08,207 - CricketBallTracker - DEBUG - Processing frame 41/202
+2025-12-19 12:00:08,251 - CricketBallTracker - DEBUG - Processing frame 42/202
+2025-12-19 12:00:08,294 - CricketBallTracker - DEBUG - Processing frame 43/202
+2025-12-19 12:00:08,337 - CricketBallTracker - DEBUG - Processing frame 44/202
+2025-12-19 12:00:08,381 - CricketBallTracker - DEBUG - Processing frame 45/202
+2025-12-19 12:00:08,429 - CricketBallTracker - DEBUG - Processing frame 46/202
+2025-12-19 12:00:08,475 - CricketBallTracker - DEBUG - Processing frame 47/202
+2025-12-19 12:00:08,520 - CricketBallTracker - DEBUG - Processing frame 48/202
+2025-12-19 12:00:08,563 - CricketBallTracker - DEBUG - Processing frame 49/202
+2025-12-19 12:00:08,617 - CricketBallTracker - DEBUG - Processing frame 50/202
+2025-12-19 12:00:08,669 - CricketBallTracker - INFO - Saved sample frame to /Users/bharat/Downloads/EDGEFLEET/results/classical/10_20251219_120006/sample_50.jpg
+2025-12-19 12:00:08,674 - CricketBallTracker - DEBUG - Processing frame 51/202
+2025-12-19 12:00:08,719 - CricketBallTracker - DEBUG - Processing frame 52/202
+2025-12-19 12:00:08,765 - CricketBallTracker - DEBUG - Processing frame 53/202
+2025-12-19 12:00:08,819 - CricketBallTracker - DEBUG - Processing frame 54/202
+2025-12-19 12:00:08,875 - CricketBallTracker - DEBUG - Processing frame 55/202
+2025-12-19 12:00:08,928 - CricketBallTracker - DEBUG - Processing frame 56/202
+2025-12-19 12:00:08,985 - CricketBallTracker - DEBUG - Processing frame 57/202
+2025-12-19 12:00:09,034 - CricketBallTracker - DEBUG - Processing frame 58/202
+2025-12-19 12:00:09,083 - CricketBallTracker - DEBUG - Processing frame 59/202
+2025-12-19 12:00:09,129 - CricketBallTracker - DEBUG - Processing frame 60/202
+2025-12-19 12:00:09,177 - CricketBallTracker - DEBUG - Processing frame 61/202
+2025-12-19 12:00:09,233 - CricketBallTracker - DEBUG - Processing frame 62/202
+2025-12-19 12:00:09,284 - CricketBallTracker - DEBUG - Processing frame 63/202
+2025-12-19 12:00:09,330 - CricketBallTracker - DEBUG - Processing frame 64/202
+2025-12-19 12:00:09,378 - CricketBallTracker - DEBUG - Processing frame 65/202
+2025-12-19 12:00:09,426 - CricketBallTracker - DEBUG - Processing frame 66/202
+2025-12-19 12:00:09,473 - CricketBallTracker - DEBUG - Processing frame 67/202
+2025-12-19 12:00:09,520 - CricketBallTracker - DEBUG - Processing frame 68/202
+2025-12-19 12:00:09,568 - CricketBallTracker - DEBUG - Processing frame 69/202
+2025-12-19 12:00:09,615 - CricketBallTracker - DEBUG - Processing frame 70/202
+2025-12-19 12:00:09,662 - CricketBallTracker - DEBUG - Processing frame 71/202
+2025-12-19 12:00:09,708 - CricketBallTracker - DEBUG - Processing frame 72/202
+2025-12-19 12:00:09,757 - CricketBallTracker - DEBUG - Processing frame 73/202
+2025-12-19 12:00:09,813 - CricketBallTracker - DEBUG - Processing frame 74/202
+2025-12-19 12:00:09,862 - CricketBallTracker - DEBUG - Processing frame 75/202
+2025-12-19 12:00:09,912 - CricketBallTracker - DEBUG - Processing frame 76/202
+2025-12-19 12:00:09,964 - CricketBallTracker - DEBUG - Processing frame 77/202
+2025-12-19 12:00:10,021 - CricketBallTracker - DEBUG - Processing frame 78/202
+2025-12-19 12:00:10,073 - CricketBallTracker - DEBUG - Processing frame 79/202
+2025-12-19 12:00:10,129 - CricketBallTracker - DEBUG - Processing frame 80/202
+2025-12-19 12:00:10,177 - CricketBallTracker - DEBUG - Processing frame 81/202
+2025-12-19 12:00:10,226 - CricketBallTracker - DEBUG - Processing frame 82/202
+2025-12-19 12:00:10,272 - CricketBallTracker - DEBUG - Processing frame 83/202
+2025-12-19 12:00:10,320 - CricketBallTracker - DEBUG - Processing frame 84/202
+2025-12-19 12:00:10,367 - CricketBallTracker - DEBUG - Processing frame 85/202
+2025-12-19 12:00:10,429 - CricketBallTracker - DEBUG - Processing frame 86/202
+2025-12-19 12:00:10,476 - CricketBallTracker - DEBUG - Processing frame 87/202
+2025-12-19 12:00:10,524 - CricketBallTracker - DEBUG - Processing frame 88/202
+2025-12-19 12:00:10,571 - CricketBallTracker - DEBUG - Processing frame 89/202
+2025-12-19 12:00:10,618 - CricketBallTracker - DEBUG - Processing frame 90/202
+2025-12-19 12:00:10,665 - CricketBallTracker - DEBUG - Processing frame 91/202
+2025-12-19 12:00:10,713 - CricketBallTracker - DEBUG - Processing frame 92/202
+2025-12-19 12:00:10,762 - CricketBallTracker - DEBUG - Processing frame 93/202
+2025-12-19 12:00:10,812 - CricketBallTracker - DEBUG - Processing frame 94/202
+2025-12-19 12:00:10,860 - CricketBallTracker - DEBUG - Processing frame 95/202
+2025-12-19 12:00:10,908 - CricketBallTracker - DEBUG - Processing frame 96/202
+2025-12-19 12:00:10,955 - CricketBallTracker - DEBUG - Processing frame 97/202
+2025-12-19 12:00:11,014 - CricketBallTracker - DEBUG - Processing frame 98/202
+2025-12-19 12:00:11,075 - CricketBallTracker - DEBUG - Processing frame 99/202
+2025-12-19 12:00:11,129 - CricketBallTracker - DEBUG - Processing frame 100/202
+2025-12-19 12:00:11,193 - CricketBallTracker - INFO - Saved sample frame to /Users/bharat/Downloads/EDGEFLEET/results/classical/10_20251219_120006/sample_100.jpg
+2025-12-19 12:00:11,202 - CricketBallTracker - DEBUG - Processing frame 101/202
+2025-12-19 12:00:11,258 - CricketBallTracker - DEBUG - Processing frame 102/202
+2025-12-19 12:00:11,311 - CricketBallTracker - DEBUG - Processing frame 103/202
+2025-12-19 12:00:11,363 - CricketBallTracker - DEBUG - Processing frame 104/202
+2025-12-19 12:00:11,416 - CricketBallTracker - DEBUG - Processing frame 105/202
+2025-12-19 12:00:11,469 - CricketBallTracker - DEBUG - Processing frame 106/202
+2025-12-19 12:00:11,519 - CricketBallTracker - DEBUG - Processing frame 107/202
+2025-12-19 12:00:11,608 - CricketBallTracker - DEBUG - Processing frame 108/202
+2025-12-19 12:00:11,658 - CricketBallTracker - DEBUG - Processing frame 109/202
+2025-12-19 12:00:11,721 - CricketBallTracker - DEBUG - Processing frame 110/202
+2025-12-19 12:00:11,779 - CricketBallTracker - DEBUG - Processing frame 111/202
+2025-12-19 12:00:11,843 - CricketBallTracker - DEBUG - Processing frame 112/202
+2025-12-19 12:00:11,897 - CricketBallTracker - DEBUG - Processing frame 113/202
+2025-12-19 12:00:11,992 - CricketBallTracker - DEBUG - Processing frame 114/202
+2025-12-19 12:00:12,037 - CricketBallTracker - DEBUG - Processing frame 115/202
+2025-12-19 12:00:12,087 - CricketBallTracker - DEBUG - Processing frame 116/202
+2025-12-19 12:00:12,134 - CricketBallTracker - DEBUG - Processing frame 117/202
+2025-12-19 12:00:12,183 - CricketBallTracker - DEBUG - Processing frame 118/202
+2025-12-19 12:00:12,231 - CricketBallTracker - DEBUG - Processing frame 119/202
+2025-12-19 12:00:12,281 - CricketBallTracker - DEBUG - Processing frame 120/202
+2025-12-19 12:00:12,328 - CricketBallTracker - DEBUG - Processing frame 121/202
+2025-12-19 12:00:12,383 - CricketBallTracker - DEBUG - Processing frame 122/202
+2025-12-19 12:00:12,431 - CricketBallTracker - DEBUG - Processing frame 123/202
+2025-12-19 12:00:12,479 - CricketBallTracker - DEBUG - Processing frame 124/202
+2025-12-19 12:00:12,527 - CricketBallTracker - DEBUG - Processing frame 125/202
+2025-12-19 12:00:12,575 - CricketBallTracker - DEBUG - Processing frame 126/202
+2025-12-19 12:00:12,626 - CricketBallTracker - DEBUG - Processing frame 127/202
+2025-12-19 12:00:12,675 - CricketBallTracker - DEBUG - Processing frame 128/202
+2025-12-19 12:00:12,725 - CricketBallTracker - DEBUG - Processing frame 129/202
+2025-12-19 12:00:12,772 - CricketBallTracker - DEBUG - Processing frame 130/202
+2025-12-19 12:00:12,818 - CricketBallTracker - DEBUG - Processing frame 131/202
+2025-12-19 12:00:12,867 - CricketBallTracker - DEBUG - Processing frame 132/202
+2025-12-19 12:00:12,914 - CricketBallTracker - DEBUG - Processing frame 133/202
+2025-12-19 12:00:12,972 - CricketBallTracker - DEBUG - Processing frame 134/202
+2025-12-19 12:00:13,020 - CricketBallTracker - DEBUG - Processing frame 135/202
+2025-12-19 12:00:13,080 - CricketBallTracker - DEBUG - Processing frame 136/202
+2025-12-19 12:00:13,130 - CricketBallTracker - DEBUG - Processing frame 137/202
+2025-12-19 12:00:13,180 - CricketBallTracker - DEBUG - Processing frame 138/202
+2025-12-19 12:00:13,229 - CricketBallTracker - DEBUG - Processing frame 139/202
+2025-12-19 12:00:13,290 - CricketBallTracker - DEBUG - Processing frame 140/202
+2025-12-19 12:00:13,338 - CricketBallTracker - DEBUG - Processing frame 141/202
+2025-12-19 12:00:13,387 - CricketBallTracker - DEBUG - Processing frame 142/202
+2025-12-19 12:00:13,434 - CricketBallTracker - DEBUG - Processing frame 143/202
+2025-12-19 12:00:13,481 - CricketBallTracker - DEBUG - Processing frame 144/202
+2025-12-19 12:00:13,531 - CricketBallTracker - DEBUG - Processing frame 145/202
+2025-12-19 12:00:13,586 - CricketBallTracker - DEBUG - Processing frame 146/202
+2025-12-19 12:00:13,635 - CricketBallTracker - DEBUG - Processing frame 147/202
+2025-12-19 12:00:13,681 - CricketBallTracker - DEBUG - Processing frame 148/202
+2025-12-19 12:00:13,727 - CricketBallTracker - DEBUG - Processing frame 149/202
+2025-12-19 12:00:13,774 - CricketBallTracker - DEBUG - Processing frame 150/202
+2025-12-19 12:00:13,829 - CricketBallTracker - INFO - Saved sample frame to /Users/bharat/Downloads/EDGEFLEET/results/classical/10_20251219_120006/sample_150.jpg
+2025-12-19 12:00:13,833 - CricketBallTracker - DEBUG - Processing frame 151/202
+2025-12-19 12:00:13,886 - CricketBallTracker - DEBUG - Processing frame 152/202
+2025-12-19 12:00:13,934 - CricketBallTracker - DEBUG - Processing frame 153/202
+2025-12-19 12:00:13,980 - CricketBallTracker - DEBUG - Processing frame 154/202
+2025-12-19 12:00:14,029 - CricketBallTracker - DEBUG - Processing frame 155/202
+2025-12-19 12:00:14,081 - CricketBallTracker - DEBUG - Processing frame 156/202
+2025-12-19 12:00:14,148 - CricketBallTracker - DEBUG - Processing frame 157/202
+2025-12-19 12:00:14,214 - CricketBallTracker - DEBUG - Processing frame 158/202
+2025-12-19 12:00:14,268 - CricketBallTracker - DEBUG - Processing frame 159/202
+2025-12-19 12:00:14,321 - CricketBallTracker - DEBUG - Processing frame 160/202
+2025-12-19 12:00:14,375 - CricketBallTracker - DEBUG - Processing frame 161/202
+2025-12-19 12:00:14,425 - CricketBallTracker - DEBUG - Processing frame 162/202
+2025-12-19 12:00:14,474 - CricketBallTracker - DEBUG - Processing frame 163/202
+2025-12-19 12:00:14,521 - CricketBallTracker - DEBUG - Processing frame 164/202
+2025-12-19 12:00:14,568 - CricketBallTracker - DEBUG - Processing frame 165/202
+2025-12-19 12:00:14,616 - CricketBallTracker - DEBUG - Processing frame 166/202
+2025-12-19 12:00:14,663 - CricketBallTracker - DEBUG - Processing frame 167/202
+2025-12-19 12:00:14,715 - CricketBallTracker - DEBUG - Processing frame 168/202
+2025-12-19 12:00:14,767 - CricketBallTracker - DEBUG - Processing frame 169/202
+2025-12-19 12:00:14,823 - CricketBallTracker - DEBUG - Processing frame 170/202
+2025-12-19 12:00:14,875 - CricketBallTracker - DEBUG - Processing frame 171/202
+2025-12-19 12:00:14,926 - CricketBallTracker - DEBUG - Processing frame 172/202
+2025-12-19 12:00:14,974 - CricketBallTracker - DEBUG - Processing frame 173/202
+2025-12-19 12:00:15,025 - CricketBallTracker - DEBUG - Processing frame 174/202
+2025-12-19 12:00:15,076 - CricketBallTracker - DEBUG - Processing frame 175/202
+2025-12-19 12:00:15,126 - CricketBallTracker - DEBUG - Processing frame 176/202
+2025-12-19 12:00:15,178 - CricketBallTracker - DEBUG - Processing frame 177/202
+2025-12-19 12:00:15,238 - CricketBallTracker - DEBUG - Processing frame 178/202
+2025-12-19 12:00:15,291 - CricketBallTracker - DEBUG - Processing frame 179/202
+2025-12-19 12:00:15,346 - CricketBallTracker - DEBUG - Processing frame 180/202
+2025-12-19 12:00:15,402 - CricketBallTracker - DEBUG - Processing frame 181/202
+2025-12-19 12:00:15,460 - CricketBallTracker - DEBUG - Processing frame 182/202
+2025-12-19 12:00:15,509 - CricketBallTracker - DEBUG - Processing frame 183/202
+2025-12-19 12:00:15,559 - CricketBallTracker - DEBUG - Processing frame 184/202
+2025-12-19 12:00:15,608 - CricketBallTracker - DEBUG - Processing frame 185/202
+2025-12-19 12:00:15,657 - CricketBallTracker - DEBUG - Processing frame 186/202
+2025-12-19 12:00:15,707 - CricketBallTracker - DEBUG - Processing frame 187/202
+2025-12-19 12:00:15,756 - CricketBallTracker - DEBUG - Processing frame 188/202
+2025-12-19 12:00:15,808 - CricketBallTracker - DEBUG - Processing frame 189/202
+2025-12-19 12:00:15,856 - CricketBallTracker - DEBUG - Processing frame 190/202
+2025-12-19 12:00:15,916 - CricketBallTracker - DEBUG - Processing frame 191/202
+2025-12-19 12:00:16,000 - CricketBallTracker - DEBUG - Processing frame 192/202
+2025-12-19 12:00:16,064 - CricketBallTracker - DEBUG - Processing frame 193/202
+2025-12-19 12:00:16,146 - CricketBallTracker - DEBUG - Processing frame 194/202
+2025-12-19 12:00:16,216 - CricketBallTracker - DEBUG - Processing frame 195/202
+2025-12-19 12:00:16,286 - CricketBallTracker - DEBUG - Processing frame 196/202
+2025-12-19 12:00:16,356 - CricketBallTracker - DEBUG - Processing frame 197/202
+2025-12-19 12:00:16,421 - CricketBallTracker - DEBUG - Processing frame 198/202
+2025-12-19 12:00:16,472 - CricketBallTracker - DEBUG - Processing frame 199/202
+2025-12-19 12:00:16,522 - CricketBallTracker - DEBUG - Processing frame 200/202
+2025-12-19 12:00:16,582 - CricketBallTracker - INFO - Saved sample frame to /Users/bharat/Downloads/EDGEFLEET/results/classical/10_20251219_120006/sample_200.jpg
+2025-12-19 12:00:16,586 - CricketBallTracker - DEBUG - Processing frame 201/202
+2025-12-19 12:00:16,633 - CricketBallTracker - INFO - Annotations saved to /Users/bharat/Downloads/EDGEFLEET/annotations/classical/10_20251219_120006.csv
+2025-12-19 12:00:16,633 - CricketBallTracker - INFO - Output video saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/10_20251219_120006/10_output.mp4
+2025-12-19 12:00:16,633 - CricketBallTracker - INFO - --- Performing Evaluation ---
+2025-12-19 12:00:16,643 - CricketBallTracker - INFO - Evaluation Results: {
+    "total_ground_truth_visible_balls": 141,
+    "detected_balls_matched": 0,
+    "recall": "0.0000",
+    "precision": "0.0000",
+    "mean_centroid_drift_pixels": "N/A"
+}
+2025-12-19 12:00:16,643 - CricketBallTracker - INFO - Evaluation metrics saved to /Users/bharat/Downloads/EDGEFLEET/results/classical/10_20251219_120006/evaluation_metrics.json
+2025-12-19 12:00:16,644 - CricketBallTracker - INFO - --- Finished pipeline for: 10.mov ---

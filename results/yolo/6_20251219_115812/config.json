@@ -1,0 +1,45 @@
+{
+    "mode": "EVALUATE",
+    "detector_config": {
+        "type": "yolo",
+        "model_path": "runs/detect/train/weights/best.pt",
+        "hyperparameters": {
+            "confidence_threshold": 0.3,
+            "target_class_id": 0
+        }
+    },
+    "io_config": {
+        "input_video_path": "/Users/bharat/Downloads/EDGEFLEET/data/TEST/6.mov",
+        "output_dir": "output"
+    },
+    "tracking_config": {
+        "max_age": 30,
+        "process_noise_cov": [
+            0.01,
+            0.01,
+            0.005,
+            0.005
+        ],
+        "measurement_noise_cov": [
+            0.1,
+            0.1
+        ],
+        "edge_margin": 20
+    },
+    "visualization_config": {
+        "base_width": 50,
+        "min_width": 5,
+        "alpha": 0.3,
+        "smoothing_window": 5,
+        "history_length": 30
+    },
+    "evaluation_config": {
+        "distance_threshold": 20,
+        "ground_truth_folder": "data/TEST/Annotations"
+    },
+    "train_config": {
+        "epochs": 100,
+        "data_path": "data/TRAIN/data.yaml"
+    },
+    "save_sample_frames": true
+}

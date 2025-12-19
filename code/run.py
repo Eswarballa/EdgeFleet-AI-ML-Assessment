@@ -71,7 +71,8 @@ class Pipeline:
         
         self.detector = get_detector(config.detector_config)
         self.tracker = KalmanTracker(config.tracking_config)
-        self.ground_truth_df = self._load_ground_truth(ground_truth_path) if self.mode == "EVALUATE" else None
+        # Ground truth is now loaded dynamically in _perform_evaluation
+        self.ground_truth_df = None
 
         self.annotations = []
         self.trajectory_points = []
@@ -80,15 +81,7 @@ class Pipeline:
             f.write(self.config.model_dump_json(indent=4))
         logger.info(f"Configuration saved to {self.results_dir}")
 
-    def _load_ground_truth(self, gt_path):
-        if not gt_path:
-            raise ValueError("Ground truth path is required for EVALUATE mode.")
-        try:
-            df = pd.read_csv(gt_path)
-            logger.info(f"Loaded ground truth from {gt_path}")
-            return df
-        except FileNotFoundError:
-            raise FileNotFoundError(f"Ground truth file not found at {gt_path}")
+
 
     def run(self):
         """Runs the pipeline based on the configured mode."""

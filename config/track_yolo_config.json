@@ -2,7 +2,7 @@
   "mode": "TRACK",
   "detector_config": {
     "type": "yolo",
-    "model_path": "runs/detect/train/weights/best_1.pt",
+    "model_path": "runs/detect/train/weights/best.pt",
     "hyperparameters": {
       "confidence_threshold": 0.6,
       "crop_width_ratio": 0.6,

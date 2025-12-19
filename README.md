@@ -28,7 +28,7 @@ This project implements a robust pipeline for detecting and tracking cricket bal
     ```bash
     pip install -r requirements.txt
     ```
-    *(Ensure `ultralytics`, `opencv-python`, `pandas`, `numpy`, and `pydantic` are installed)*
+    *(Ensure `ultralytics`, `opencv-python`, `pandas`, `numpy` , `torch` , and `pydantic` are installed)*
 
 ## Execution Modes
 
@@ -65,9 +65,16 @@ python3 code/run.py --config config/track_yolo_config.json
 ### 4. Evaluation
 Evaluate the pipeline's performance against ground truth annotations (CVAT XML format).
 
+#### YOLO Evaluation
 ```bash
-python3 code/run.py --config config/evaluate_config.json
+python3 code/run.py --config config/evaluate_yolo_config.json
 ```
+
+#### Classical Evaluation
+```bash
+python3 code/run.py --config config/evaluate_classical_config.json
+```
+
 *   **Logic**: 
     1.  Runs tracking on the input video.
     2.  Automatically finds the corresponding Ground Truth XML in `data/TEST/Annotations`.

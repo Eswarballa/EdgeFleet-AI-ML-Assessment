@@ -1,0 +1,67 @@
+{
+    "mode": "EVALUATE",
+    "detector_config": {
+        "type": "classical",
+        "model_path": null,
+        "hyperparameters": {
+            "confidence_threshold": 0.3,
+            "target_class_id": null,
+            "warmup_frames": 50,
+            "crop_width_ratio": 0.6,
+            "min_area": 50,
+            "max_area": 400,
+            "min_circularity": 0.7,
+            "minRadius": 5,
+            "maxRadius": 15,
+            "max_jump_distance": 75,
+            "hsv_lower": [
+                0,
+                0,
+                160
+            ],
+            "hsv_upper": [
+                180,
+                50,
+                255
+            ],
+            "min_color_ratio": 0.5,
+            "canny_thresh1": 100,
+            "canny_thresh2": 200,
+            "min_edge_density": 0.2
+        }
+    },
+    "io_config": {
+        "input_video_path": "/Users/bharat/Downloads/EDGEFLEET/data/TEST/4.mov",
+        "output_dir": "output"
+    },
+    "tracking_config": {
+        "max_age": 30,
+        "process_noise_cov": [
+            0.01,
+            0.01,
+            0.005,
+            0.005
+        ],
+        "measurement_noise_cov": [
+            0.1,
+            0.1
+        ],
+        "edge_margin": 20
+    },
+    "visualization_config": {
+        "base_width": 50,
+        "min_width": 5,
+        "alpha": 0.3,
+        "smoothing_window": 5,
+        "history_length": 30
+    },
+    "evaluation_config": {
+        "distance_threshold": 20,
+        "ground_truth_folder": "data/TEST/Annotations"
+    },
+    "train_config": {
+        "epochs": 100,
+        "data_path": "data/TRAIN/data.yaml"
+    },
+    "save_sample_frames": true
+}
