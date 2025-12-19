@@ -2,10 +2,11 @@
   "mode": "TRACK",
   "detector_config": {
     "type": "yolo",
-    "model_path": "models/yolov8n.pt",
+    "model_path": "runs/detect/train/weights/best_1.pt",
     "hyperparameters": {
-      "confidence_threshold": 0.3,
-      "crop_width_ratio": 0.6
+      "confidence_threshold": 0.6,
+      "crop_width_ratio": 0.6,
+      "target_class_id": 0
     }
   },
   "io_config": {
@@ -27,7 +28,9 @@
   "visualization_config": {
     "base_width": 50,
     "min_width": 5,
-    "alpha": 0.3
+    "alpha": 0.3,
+    "smoothing_window": 5,
+    "history_length": 30
   },
   "save_sample_frames": true
 }

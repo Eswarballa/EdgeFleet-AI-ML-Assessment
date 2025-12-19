@@ -18,10 +18,11 @@ from detectors.base_detector import BaseDetector
 from detectors.classical_detector import ClassicalDetector
 from detectors.yolo_detector import YOLODetector
 from tracking.kalman_tracker import KalmanTracker
-from visualization import draw_centroid, draw_perspective_trajectory, draw_detection_box
+from utils.visualization import draw_centroid, draw_perspective_trajectory, draw_detection_box
 from utils.logger import setup_logger, add_file_handler
-from config_models import PipelineConfig
-from train import train_model
+from utils.evaluation import parse_xml_ground_truth, compute_metrics, load_system_predictions
+from utils.training import train_model
+from utils.config_models import PipelineConfig
 
 logger = setup_logger()
 
@@ -91,33 +92,12 @@ class Pipeline:
 
     def run(self):
         """Runs the pipeline based on the configured mode."""
-        if self.mode == "INFER":
-            self._run_infer_mode()
-        elif self.mode in ["TRACK", "EVALUATE"]:
+        if self.mode in ["TRACK", "EVALUATE"]:
             self._run_track_evaluate_mode()
-
-    def _run_infer_mode(self):
-        """Handles detection-only logic."""
-        cap = cv2.VideoCapture(str(self.config.io_config.input_video_path))
-        if not cap.isOpened():
-            logger.error(f"Could not open video file {self.config.io_config.input_video_path}")
-            return
-
-        frame_count = 0
-        total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-        while cap.isOpened():
-            ret, frame = cap.read()
-            if not ret: break
-            frame_count += 1
-            logger.info(f"Processing frame {frame_count}/{total_frames}...")
-            
-            detections = self.detector.detect(frame)
-            for x1, y1, x2, y2, conf in detections:
-                self.annotations.append([frame_count, x1, y1, x2, y2, conf])
-        
-        cap.release()
-        self._save_annotations()
-        logger.info("Inference finished.")
+        elif self.mode == "TRAIN":
+            # This is handled logically in main(), but good to have a placeholder or error if called directly
+            logger.warning("TRAIN mode should be handled via utils.training, not distinct pipeline run method yet.")
+            pass
 
     def _run_track_evaluate_mode(self):
         """Handles logic for TRACK and EVALUATE modes."""
@@ -171,12 +151,17 @@ class Pipeline:
             if tracked_state: draw_centroid(frame, tracked_state, visibility == 1)
             # Use the new perspective trajectory drawing function
             if len(self.trajectory_points) > 1:
+                # Fading Tail: Truncate history to the last N frames
+                history_len = self.config.visualization_config.history_length
+                recent_trajectory = self.trajectory_points[-history_len:]
+                
                 draw_perspective_trajectory(
                     frame,
-                    self.trajectory_points,
+                    recent_trajectory,
                     base_width=self.config.visualization_config.base_width,
                     min_width=self.config.visualization_config.min_width,
-                    alpha=self.config.visualization_config.alpha
+                    alpha=self.config.visualization_config.alpha,
+                    smoothing_window=self.config.visualization_config.smoothing_window
                 )
             if best_detection: draw_detection_box(frame, best_detection[:4], best_detection[4])
             video_writer.write(frame)
@@ -209,55 +194,55 @@ class Pipeline:
 
     def _perform_evaluation(self):
         logger.info("--- Performing Evaluation ---")
-        if self.ground_truth_df is None: return
-
-        # Merge annotations with ground truth on frame_index
-        annotations_df = pd.DataFrame(self.annotations, columns=["frame_index", "x_centroid", "y_centroid", "visibility_flag"])
-        annotations_df = annotations_df[annotations_df['x_centroid'] != ''] # Filter for tracked frames only
-        annotations_df[['x_centroid', 'y_centroid']] = annotations_df[['x_centroid', 'y_centroid']].astype(float)
-
-        # Ensure ground truth is also filtered to only visible balls for relevant comparison
-        gt_filtered_df = self.ground_truth_df[self.ground_truth_df['visibility_flag'] == 1].copy()
-
-        # Merge based on frame_index
-        eval_df = pd.merge(gt_filtered_df, annotations_df, on="frame_index", how="left", suffixes=('_gt', '_pred'))
         
-        total_gt_visible_balls = len(gt_filtered_df)
-        detected_gt_balls = 0
-        total_centroid_drift = 0
-        drift_measurements_count = 0
-
-        distance_threshold = self.config.evaluation_config.distance_threshold
-        logger.info(f"Evaluation using distance threshold for matching: {distance_threshold} pixels.")
-
-        for idx, row in eval_df.iterrows():
-            gt_x, gt_y = row['x_centroid_gt'], row['y_centroid_gt']
-            pred_x, pred_y = row['x_centroid_pred'], row['y_centroid_pred'] # This might be NaN if no prediction
-
-            if pd.notna(pred_x) and row['visibility_flag_pred'] == 1: # Only consider predictions that exist and were visible
-                distance = np.sqrt((gt_x - pred_x)**2 + (gt_y - pred_y)**2)
-                
-                if distance <= distance_threshold:
-                    detected_gt_balls += 1
-                    total_centroid_drift += distance
-                    drift_measurements_count += 1
+        # 1. Determine local ground truth path based on video name
+        # Assuming video name is "1" from "1.mp4", then GT is "1_annotations.xml"
+        video_basename = os.path.splitext(os.path.basename(str(self.config.io_config.input_video_path)))[0]
+        gt_filename = f"{video_basename}_annotations.xml"
         
-        detection_consistency_percent = (detected_gt_balls / total_gt_visible_balls) * 100 if total_gt_visible_balls > 0 else 0
-        mean_centroid_drift_pixels = (total_centroid_drift / drift_measurements_count) if drift_measurements_count > 0 else 0
-        missed_frame_count = total_gt_visible_balls - detected_gt_balls
+        # Resolve absolute path for GT folder
+        project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+        gt_folder = self.config.evaluation_config.ground_truth_folder
+        if not os.path.isabs(gt_folder):
+            gt_folder = os.path.join(project_root, gt_folder)
+            
+        gt_path = os.path.join(gt_folder, gt_filename)
+        
+        if not os.path.exists(gt_path):
+            logger.warning(f"Ground truth file not found: {gt_path}. Skipping evaluation.")
+            return
 
-        metrics = {
-            "total_ground_truth_visible_balls": total_gt_visible_balls,
-            "detected_tracked_ground_truth_balls_within_threshold": detected_gt_balls,
-            "detection_consistency_percent": f"{detection_consistency_percent:.2f}",
-            "missed_frame_count": missed_frame_count,
-            "mean_centroid_drift_pixels": f"{mean_centroid_drift_pixels:.2f}"
+        # 2. Parse Ground Truth
+        gt_df = parse_xml_ground_truth(gt_path)
+
+        # 3. Load Predictions (from the just-saved CSV)
+        pred_df = load_system_predictions(self.annotations_path)
+
+        # 4. Compute Metrics
+        metrics = compute_metrics(
+            gt_df=gt_df,
+            pred_df=pred_df,
+            distance_threshold=self.config.evaluation_config.distance_threshold
+        )
+        
+        if not metrics:
+            logger.warning("Evaluation failed or returned no metrics.")
+            return
+
+        # 5. Log and Save Results
+        formatted_metrics = {
+            "total_ground_truth_visible_balls": metrics['total_visible_gt'],
+            "detected_balls_matched": metrics['true_positives'],
+            "recall": f"{metrics['recall']:.4f}",
+            "precision": f"{metrics['precision']:.4f}",
+            "mean_centroid_drift_pixels": f"{metrics['avg_drift']:.2f}" if pd.notna(metrics['avg_drift']) else "N/A"
         }
-        logger.info(f"Evaluation Results: {json.dumps(metrics, indent=4)}")
+        
+        logger.info(f"Evaluation Results: {json.dumps(formatted_metrics, indent=4)}")
 
         metrics_path = os.path.join(self.results_dir, "evaluation_metrics.json")
         with open(metrics_path, 'w') as f:
-            json.dump(metrics, f, indent=4)
+            json.dump(formatted_metrics, f, indent=4)
         logger.info(f"Evaluation metrics saved to {metrics_path}")
 
 def main():

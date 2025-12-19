@@ -28,7 +28,9 @@
   "visualization_config": {
     "base_width": 50,
     "min_width": 5,
-    "alpha": 0.3
+    "alpha": 0.3,
+    "smoothing_window": 5,
+    "history_length": 30
   },
   "evaluation_config": {
     "distance_threshold": 10
